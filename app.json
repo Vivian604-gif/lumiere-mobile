@@ -2,6 +2,7 @@
   "expo": {
     "name": "lumiere-mobile",
     "slug": "lumiere-mobile",
+    "scheme": "lumiere",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +16,19 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.lumiere.shop"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-web-browser"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e38c9ecd-59aa-4be8-88d3-4d33eb834316"
+      }
+    }
   }
 }
